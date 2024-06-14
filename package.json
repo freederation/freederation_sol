@@ -1,0 +1,28 @@
+{
+  "name": "freederation_contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "typerun": "ts-node typechain.task.ts",
+    "test_randao": "ts-mocha \"./testjs/test_dvrandao.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typechain/ethers-v6": "^0.5.1",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethers": "^6.13.0",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0"
+  }
+}
